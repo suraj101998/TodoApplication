@@ -18,8 +18,6 @@ This is a simple Spring Boot application that provides a RESTful API for managin
 ## Getting Started
 
 ### Clone the repository
-
-```bash
 git clone https://github.com/suraj101998/TodoApplication.git
 cd todo-application
 
