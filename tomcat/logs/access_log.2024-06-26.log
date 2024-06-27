@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [26/Jun/2024:16:11:59 +0530] "GET /swagger-ui.html HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Jun/2024:16:11:59 +0530] "GET /swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200 1096221
+0:0:0:0:0:0:0:1 - - [26/Jun/2024:16:11:59 +0530] "GET /v3/api-docs/swagger-config HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [26/Jun/2024:16:11:59 +0530] "GET /v3/api-docs HTTP/1.1" 200 2307
