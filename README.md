@@ -38,16 +38,16 @@ The application will start on http://localhost:8080
     Request Body: {
                     "title": "Buy groceries",
                     "description": "Milk, Bread, Cheese, and Vegetables",
-                    "dueDate": "2024-06-30",
-                    "priority": "High"
+                    "created_at": "2024-06-25",
+                    "completed": false
                     }
 
     Response: {
                 "id": 1,
                 "title": "Buy groceries",
                 "description": "Milk, Bread, Cheese, and Vegetables",
-                "dueDate": "2024-06-30",
-                "priority": "High"
+                "created_at": "2024-06-25",
+                "completed": false
                 }
 
 ## Retrieve all todo items
@@ -59,15 +59,15 @@ The application will start on http://localhost:8080
                     "id": 1,
                     "title": "Buy groceries",
                     "description": "Milk, Bread, Cheese, and Vegetables",
-                    "dueDate": "2024-06-30",
-                    "priority": "High"
+                    "created_at": "2024-06-25",
+                    "completed": false
                 },
                 {
                     "id": 2,
                     "title": "Finish project",
                     "description": "Complete the project by end of the week",
-                    "dueDate": "2024-07-01",
-                    "priority": "Medium"
+                    "created_at": "2024-06-24",
+                    "completed": true
                 }
             ]
 
@@ -79,9 +79,9 @@ The application will start on http://localhost:8080
                 "id": 1,
                 "title": "Buy groceries",
                 "description": "Milk, Bread, Cheese, and Vegetables",
-                "dueDate": "2024-06-30",
-                "priority": "High"
-                }
+                "created_at": "2024-06-25",
+                "completed": false
+            }
 
 ## Update an existing todo item
 
@@ -90,15 +90,16 @@ The application will start on http://localhost:8080
     Request Body: {
                     "title": "Buy groceries and drinks",
                     "description": "Milk, Bread, Cheese, Vegetables, and Soda",
-                    "dueDate": "2024-06-30",
-                    "priority": "High"
+                    "created_at": "2024-06-25",
+                    "completed": true
                     }
+
     Response: {
                 "id": 1,
                 "title": "Buy groceries and drinks",
                 "description": "Milk, Bread, Cheese, Vegetables, and Soda",
-                "dueDate": "2024-06-30",
-                "priority": "High"
+                "created_at": "2024-06-25",
+                "completed": true
                 }
 ## Delete a todo item
 
