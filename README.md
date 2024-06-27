@@ -20,7 +20,7 @@ This is a simple Spring Boot application that provides a RESTful API for managin
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/todo-application.git
+git clone https://github.com/suraj101998/TodoApplication.git
 cd todo-application
 
 ### Build the project
