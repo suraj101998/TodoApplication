@@ -28,6 +28,8 @@ mvn spring-boot:run
 
 The application will start on http://localhost:8080
 
+You can also access the application at http://localhost:8080/swagger-ui/index.html
+
 ### API Endpoints
 
 

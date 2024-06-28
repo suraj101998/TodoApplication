@@ -12,8 +12,8 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Todo API")
+                        .title("Todo Application")
                         .version("1.0")
-                        .description("API for managing Todo items"));
+                        .description("API for managing Todo items with features of creating new todo items, Retrieve a list of todo items, Retrieve a single todo item by ID, Update an existing todo item fully or partially, Delete a todo item and get the count of todo items."));
     }
 }
